@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bintang Teknik Penerimaan Jasa Service Elektronik</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Formulir Service Elektronik</h1>
+      <form action="#" method="post">
+        <label for="nama">Nama Pelanggan:</label>
+        <input type="text" id="nama" name="nama" required />
+
+        <label for="telepon">No. Telepon:</label>
+        <input type="tel" id="telepon" name="telepon" required />
+
+        <label for="jenis">Jenis Elektronik:</label>
+        <select id="jenis" name="jenis">
+          <option value="AC">AC</option>
+          <option value="Kulkas">Kulkas</option>
+          <option value="Mesin Cuci">Mesin Cuci</option>
+          <option value="Lainnya">Lainnya</option>
+        </select>
+
+        <label for="keluhan">Keluhan / Masalah:</label>
+        <textarea id="keluhan" name="keluhan" rows="4" required></textarea>
+
+        <button type="submit">Kirim Permintaan</button>
+      </form>
+    </div>
+    <footer class="footer">
+      <p>Hubungin Kami</p>
+      <div class="sosmed">
+        <a href="https://wa.me/6281298257416" target="_blank">
+          <img src="whatsapp.jpeg" alt="whatsapp" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
